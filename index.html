@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fighting Game</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="sprite_container player">
+          <div class="sprite_healthbar"></div>
+          <div id="playerHealth" class="spriteHealth_percentage player"></div>
+        </div>
+        <div class="timer" id="timer">10</div>
+        <div class="sprite_container">
+          <div class="sprite_healthbar"></div>
+          <div id="enemyHealth" class="spriteHealth_percentage"></div>
+        </div>
+      </div>
+      <div id="banner" class="banner"></div>
+      <canvas></canvas>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
